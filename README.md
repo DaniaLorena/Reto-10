@@ -81,3 +81,22 @@ for i in range (cantidad):
 
 print (f"La nueva lista es: {lista}")
 ```
+
+> #### Ejercicio 4
+> Hacer un algoritmo que deje al final de un arreglo de números todos los ceros que aparezcan en dicho arreglo.
+----
+>El método de **Bubble Sort** es un algoritmo de ordenamiento muy simple que funciona intercambiando repetidamente los elementos adyacentes si están en el orden incorrecto.
+
+#### ¿Cómo funciona el algoritmo?
+1. Recorre desde la izquierda y compara los elementos adyacentes y el superior se coloca en el lado derecho.
+2. De esta manera, el elemento más grande se mueve primero al extremo más a la derecha. 
+3. Luego se continúa con este proceso para encontrar el segundo más grande y colocarlo, y así sucesivamente hasta ordenar los datos.
+
+#### Ventajas
+- El método de clasificación de burbujas es fácil de entender e implementar.
+- No requiere ningún espacio de memoria adicional.
+- Es un algoritmo de ordenación estable, lo que significa que los elementos con el mismo valor de clave mantienen su orden relativo en la salida ordenada.
+
+#### Desventajas
++ El ordenamiento de burbuja tiene una complejidad temporal de O(N 2 ), lo que lo hace muy lento para conjuntos de datos grandes.
++ El método de clasificación de burbuja es un algoritmo de clasificación basado en la comparación, lo que significa que requiere un operador de comparación para determinar el orden relativo de los elementos en el conjunto de datos de entrada. Esto puede limitar la eficiencia del algoritmo en ciertos casos.
