@@ -5,7 +5,7 @@ Aprendiendo sobre Listas :)
 > #### Ejercicio 1
 >Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
 
-```
+```python
 #Se crea un lista vacia y se declaran e incializan varibales
 lista : float = []
 suma : float = 0
@@ -27,7 +27,7 @@ print (f"El promedio del arreglo es: {suma/len(lista)}")
 > #### Ejercicio 2
 > Desarrollar un algoritmo que calcule el producto punto de dos arreglos de números enteros (reales) de igual tamaño.
 
-```
+```python
 #Se crean y declaran dos listas vacias
 lista_1 : float =[]
 lista_2 : float = []
@@ -56,7 +56,7 @@ print (f"El producto punto de los vectores es: {producto_punto}")
 ```
 > #### Ejercicio 3
 > Hacer un algoritmo que deje al final de un arreglo de números todos los ceros que aparezcan en dicho arreglo.
-```
+```python
 lista : int = []
 lista_1: int =[]
 #Se pide que cantidad de elementos va a tener el arreglo
